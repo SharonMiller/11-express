@@ -18,14 +18,18 @@
   "homepage": "https://github.com/SharonMiller/11-express#readme",
   "dependencies": {
     "babel": "^6.23.0",
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^9.0.0",
+    "debug": "^4.0.1",
     "dotenv": "^6.0.0",
     "eslint": "^5.6.0",
     "express": "^4.16.3",
     "jest": "^23.6.0",
-    "register": "0.0.0"
+    "register": "0.0.0",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
   }
 }
