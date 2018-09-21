@@ -1,0 +1,31 @@
+{
+  "name": "11-express",
+  "version": "1.0.0",
+  "description": "express lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SharonMiller/11-express.git"
+  },
+  "author": "Sharon Miller <sharonmillerdev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SharonMiller/11-express/issues"
+  },
+  "homepage": "https://github.com/SharonMiller/11-express#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "dotenv": "^6.0.0",
+    "eslint": "^5.6.0",
+    "express": "^4.16.3",
+    "jest": "^23.6.0",
+    "register": "0.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
