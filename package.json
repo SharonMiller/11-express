@@ -28,5 +28,8 @@
     "jest": "^23.6.0",
     "register": "0.0.0",
     "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "supertest": "^3.3.0"
   }
 }
