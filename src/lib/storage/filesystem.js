@@ -6,6 +6,7 @@ const storage = {};
 const databaseDir = `${__dirname}/data`;
 
 storage.get = id => {
+  console.log('I am in storage.get');
   return new Promise((resolve, reject) => {
     if (!id) { reject('ERROR: No id provided on data'); }
     let file = `${databaseDir}/${id}.json`;
